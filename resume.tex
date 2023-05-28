@@ -1,0 +1,306 @@
+%-------------------------
+% Resume in Latex
+% Author : Michael C. Hernandez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+%\usepackage{amsmath}
+%\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheadingCertificationsFirst}[2]{
+  \vspace{-2pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+	  #1 & #2 \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheadingCertificationsSubsequent}[2]{
+	\vspace{-6pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		#1 & #2 \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Michael Hernandez} \\ \vspace{1pt}
+    \small +1 503-380-0710 $|$ \href{mailto:michaelhern@hotmail.com}{\underline{michaelhern@hotmail.com}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/michaelhernandezengineer}} %$|$
+    %\href{https://github.com/...}{\underline{github.com/jake}}
+\end{center}
+
+%-----------SUMMARY-----------
+%\begin{comment}
+\section{Summary}
+\begin{itemize}[leftmargin=0.15in, label={}]
+	%\small{\item{Experienced software engineering professional proficient in Python, and C++ with experience in post-silicon functional validation, and  script development.}}
+	\small{\item{Experienced software engineering professional proficient in Python, and C++ with experience in post-silicon functional validation, and  script development.}}
+\end{itemize}
+%\end{comment}
+
+%
+%-----------SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+			\textbf{Programming Languages}{: 
+				Python, 
+				C/C++, 
+				%HTML/CSS, 
+				MATLAB, 
+				LaTeX
+				} \\
+			%\textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
+			\textbf{Developer Tools}{: 
+				Arduino IDE,
+				Git, 
+				GitHub, 
+				PyCharm, 
+				Visual Studio, 
+				VS Code, 
+				Atom, 
+				VIM,
+				Linux
+				%Ubuntu
+				} \\
+			\textbf{Libraries}{: 
+				Adafruit Arduino Libraries, 
+				Wire, 
+				LiquidCrystal
+				} \\
+			\textbf{Spoken Languages}{: 
+				English (Native), 
+				Japanese (Conversational)
+				}
+	}}
+\end{itemize}
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      %\begin{comment}
+      \resumeProjectHeading
+          {\textbf{Validation Script Development} $|$ \emph{Git, GitHub, Python, PyCharm, Linux}}{}
+          %{January 2021 -- Present}
+          \resumeItemListStart
+            \resumeItem{Developed and updated Python test scripts to stress test CPU hardware and validate feature functionality against specifications}
+            \resumeItem{Collaborated with Architecture, Design, and Pre-silicon Validation teams to ensure appropriate testing of features}
+            \resumeItem{Wrote a comprehensive technical document outlining the objectives and operation of a newly developed script}
+            
+          \resumeItemListEnd
+          %\end{comment}
+      \begin{comment}
+      \resumeProjectHeading
+          {\textbf{PCIe Card Feature Implementation} $|$ \emph{C, VIM, Git}}{May 2021 -- November 2021}
+          \resumeItemListStart
+            \resumeItem{Implemented the posted memory write feature within an existing API using C for a Gen5 PCIe test card}
+            \resumeItem{Wrote two unit tests to enable users to easily verify the feature's compatibility with the populated test card}
+            \resumeItem{Facilitated coordination with the customer to ensure the implementation of the feature aligned with their specific requirements}
+            \resumeItem{Participated in code review prior to merging new feature into main branch}
+          \resumeItemListEnd
+          \end{comment}
+     \begin{comment}
+      \resumeProjectHeading
+		  {\textbf{ECG Beat Detection Algorithm} $|$ \emph{MATLAB, Digital Signal Processing}}{January 2020 -- March 2020}
+		  \resumeItemListStart
+			\resumeItem{The algorithm was tested using an intracranial pressure signal and demonstrates accurate peak detection.}
+			\resumeItem{An eight step algorithm was written to reliable detect peaks on a noisy signal}
+			\resumeItem{Algorithm was designed with a self correcting mechanism when signal deviations were encountered}
+			\resumeItem{MATLAB was used to implement various mathematical filters}
+			\resumeItem{Time and position of each peak could be extracted from each saved data point}
+		  \resumeItemListEnd
+	      \end{comment}
+	    %\begin{comment}
+		\resumeProjectHeading
+			{\textbf{Compact Solar Powered Vaccine Dispenser} $|$ \emph{C++, Embedded Programming}}{}
+			%{September 2019 -- June 2020}
+			\resumeItemListStart
+			  \resumeItem{Designed a portable solar-powered vaccine dispenser prototype}
+			  \resumeItem{Programmable ATMEGA2560 microcontroller with Arduino was used to interface with peripheral devices}
+			  \resumeItem{User interface featuring an LCD screen, keypad, and joystick was programmed}
+			  \resumeItem{Implemented username and password mechanism for device unlock and vial dispensing}
+			  \resumeItem{Usage information recorded on an onboard SD card}
+			  \resumeItem{Developed in C++ programming language}
+			\resumeItemListEnd
+			%\end{comment}
+	  %\begin{comment}
+      \resumeProjectHeading
+      	  {\textbf{Autonomous Robot Car} $|$ \emph{C++, Embedded Programming, UART}}{}
+      	  %{January 2019 -- March 2019}
+		  \resumeItemListStart
+			\resumeItem{Team of two constructed a robot with autonomous driving and Bluetooth manual control capabilities}
+			\resumeItem{Programmable ATMEGA2560 microcontroller with Arduino was used to interface with peripheral devices}
+			\resumeItem{Implemented three autonomous driving features: line follower, ultrasonic range detection, and cruise control}
+			\resumeItem{Low-level programming was used to implement a PID loop for maintaining constant speed on varying inclines}
+			\resumeItem{An HC-05 Bluetooth transceiver interfaced with the microcontroller's serial port for manual input through a smartphone app}
+		  \resumeItemListEnd
+		  %\end{comment}
+	  
+    \resumeSubHeadingListEnd
+    
+    
+%-----------Employment History-----------
+\section{Employment History}
+	\resumeSubHeadingListStart
+
+	  \resumeSubheading
+		  {System Validation Engineer}{January 2021 -- Present}
+		  {Intel Corporation}{Hillsboro, OR}
+		  \resumeItemListStart
+		 	\resumeItem{Post-silicon functional validation of memory controller hardware for Intel Xeon processors}
+			%\resumeItem{Developed methodologies and executed validation plans}
+			%\resumeItem{Collaborated with architecture, design, and pre-silicon validation teams}
+			%\resumeItem{Utilized emulation and platform-level tools and techniques to ensure performance meets specifications}
+			\resumeItem{Debug failures and identify areas for improvement in post-silicon test content}
+			\resumeItem{Created, defined, and developed system validation environment and test suites}
+			%\resumeItem{Provide feedback for future on-die debug features}
+			%\resumeItem{Requires a broad understanding of multiple system areas}
+		  \resumeItemListEnd
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+\resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+	\resumeSubHeadingListStart
+		%\begin{comment}
+		\resumeSubheading
+			{Oregon Institute of Technology}{Wilsonville, OR}
+			{Bachelor of Science in Electrical Engineering}{June 2020}
+			%\end{comment}
+		%\begin{comment}
+		\resumeSubheading
+			{Portland State University}{Portland, OR}
+			{Bachelor of Science in Biology, Minor in Chemistry}{June 2014}
+			%\end{comment}
+		\resumeSubHeadingListEnd
+		
+
+%-----------Certifications-----------
+%\begin{comment}
+\section{Certifications}
+	\resumeSubHeadingListStart
+		\resumeSubheadingCertificationsFirst
+			{\href{https://account.ncees.org/rn/1997938-1331944-54bc0a5}{\underline{FE: Electrical and Computer Engineering}}}{September 2020}
+		%\begin{comment}
+		\resumeSubheadingCertificationsSubsequent
+			{\href{https://certifications-assets-cf.arduino.cc/certificates/cb9037a9-5b4b-494b-b1a6-cd8bc3a462c7.pdf}{\underline{Arduino Fundamentals Certification on Electronics and Physical Computing}}}{September 2020}
+		\resumeSubHeadingListEnd
+%\end{comment}
+%-------------------------------------------
+\end{document}
