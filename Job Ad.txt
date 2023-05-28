@@ -1,67 +1,115 @@
-https://www.gc-agent.com/robotjobjapan/job/598.html
+https://open.talentio.com/r/1/c/umitron/pages/79362
 
-ocation	Shinagawa-ku, Tokyo
-Company	A Japanese startup whose mission is to achieve sustainable aquaculture with technology.
-Services include:
-
-- Smart feeder:
-Reduces human operation for feeding as well as optimizes feeding amount
-
-- Measurement of fish body measurement, behavioral analysis of fish schools:
-Visualize fish status and enable asset value estimation, which will be available for data source for insurance
-
-- Marine data provision:
-Provides water temperature, oxygen, chlorophyll a, salt, wave height etc. by combining satellite data, other sensor data, and ocean model
-
-Year of foundation: 2016
-Total fund raised: 1.22 billion yen
-Number of employees: 30+
-Job Description	The company is deploying IoT products that utilize IoT and machine learning technologies to aquaculture sites around the world. By installing IoT devices in actual sea or ponds, users (aquaculture farmers) can remotely control , feed and monitor fishes in real time via cameras in the IoT devices. The feeding can also be automatically controlled by machine learning based on the video/images acquired from the camera. We will develop and operate such IoT products to help solve problems in aquaculture.
+Software Engineer (IoT product development Full-stack)_Japan Office
+Employment information
+Overview
+Umitron is deploying IoT products that utilize IoT and machine learning technologies to aquaculture sites around the world. By installing IoT devices in actual sea or ponds, users (aquaculture farmers) can remotely control , feed and monitor fishes in real time via cameras in the IoT devices. The feeding can also be automatically controlled by machine learning based on the video/images acquired from the camera. We will develop and operate such IoT products to help solve problems in aquaculture.
 
 This role will be based in Singapore and Japan. However, starting via remote work is also acceptable, and relocation support is available if you need to move to Singapore or Japan.
 
-[ Scope of work ]
-1. Develop functions for IoT products, which consist of IoT devices, web services and mobile applications for users to operate them. Based on customer requests and feedback, make IoT devices more convenient and easier to use. Also add functions to IoT products to solve potential problems discovered in the aquaculture field so that farmers can use IoT products in new ways.
+Scope of work
 
-2. Build / develop / operate device software and infrastructure to ensure stable use of IoT products by users. Continuously acquire and monitor data to keep stable operation of IoT devices in real-world environments. Design the infrastructure to ensure stable remote control even in unstable network environments such as on the ocean. Also build / develop / operate a deployment system to quickly provide newly developed functions to users.
+Develop functions for IoT products, which consist of IoT devices, web services and mobile applications for users to operate them. Based on customer requests and feedback, make IoT devices more convenient and easier to use. Also add functions to IoT products to solve potential problems discovered in the aquaculture field so that farmers can use IoT products in new ways.
+Build / develop / operate device software and infrastructure to ensure stable use of IoT products by users. Continuously acquire and monitor data to keep stable operation of IoT devices in real-world environments. Design the infrastructure to ensure stable remote control even in unstable network environments such as on the ocean. Also build / develop / operate a deployment system to quickly provide newly developed functions to users.
+3.Develop functions to enable efficient feeding to improve the growth of aquaculture seafoods. Analyze data acquired from IoT devices to find current issues, and implement functions in IoT products to support users' research on feeding methods using the data.
+Use Umitron's IoT technology and IoT products for research and development with public sector and enterprise companies to develop solutions that solve aquaculture issues and environmental problems. The results developed in this way will be implemented as functions of Umitron's IoT products and provided as services.
+Job Description
+Development of new functions for IoT products for aquaculture being developed by Umitron
+Development and operation of services in  multiple domains, including front-end, back-end, infrastructure, mobile applications, devices.
+Development Environment
+▼ Front-end
 
-3. Develop functions to enable efficient feeding to improve the growth of aquaculture seafoods. Analyze data acquired from IoT devices to find current issues, and implement functions in IoT products to support users' research on feeding methods using the data.
+TypeScript, React.js
+▼ Back-end
 
-4. Use company's IoT technology and IoT products for research and development with public sector and enterprise companies to develop solutions that solve aquaculture issues and environmental problems. The results developed in this way will be implemented as functions of company's IoT products and provided as services.
+Ruby on Rails
+▼ Device side
 
-[ Job Description ]
-- Development of new functions for IoT products for aquaculture being developed by the company
-- Development and operation of services in multiple domains, including front-end, back-end, infrastructure, mobile applications, devices.
+Go, C++
+▼ Mobile application
 
-[ Development Environment ]
-- Front-end: TypeScript, React.js
-- Back-end: Ruby on Rails
-- Device side: Go, C++
-- Mobile application: Swift, Kotlin, Flutter
-- Infrastructure: AWS, Docker, SORACOM
-- Database: MySQL, DynamoDB
-- IoT: AWS IoT
-- Device: Raspberry pi, Arduino
-- Tools: GitHub, Slack, Notion, Zoom, Google Workspace
-Requirement	Basic Requirements:
-- Experience in implementing web services from front-end to back-end
-- Experience building / operating infrastructure on AWS
-- Experience in software development with team
-- Ability to communicate in English or Japanese
+Swift, Kotlin, Flutter
+▼ Infrastructure
 
-Preferred Requirements (One or more of the below):
-- Experience in large-scale web service development / operation
-- Experience in development and operation of mobile application
-- Experience in development / operation of IoT devices and services to use IoT
+AWS, Docker, SORACOM
+▼ Database
 
-The ideal candidate should:
-- have empathy for company’s mission and Values
-- be interested in developing services that deal with real-world hardware and real-world data
-- be interested in designing systems related to multiple technical domains to solve real-world problems
-- be willing to take on new challenges in technical areas in which they have no experience
-- be a curious person and be willing to research and try on-site at things they are interested in
-- be motivated to provide services to global customers
-- love nature, the ocean, and living creatures
-English Level	Business level required in either English or Japanese
-Japanese Level	Business level required in either English or Japanese
-Employment Type	Permanent
+MySQL,  DynamoDB
+▼ IoT
+
+AWS IoT
+▼ Device
+
+Raspberry pi, Arduino
+▼ Tools
+
+GitHub, Slack, Notion, Zoom, Google Workspace
+Qualifications
+▼ Basic Requirements
+
+Experience in implementing web services from front-end to back-end
+Experience building / operating infrastructure on AWS
+Experience in software development with team
+Ability to communicate in English or Japanese
+▼ Preferred Requirements
+
+Experience in large-scale web service development / operation
+Experience in development and operation of mobile application
+Experience in  development / operation of IoT devices and services to use IoT
+The ideal candidate should
+have empathy for Umitron’s mission and Values
+be interested in developing services that deal with real-world hardware and real-world data
+be interested in designing systems related to multiple technical domains to solve real-world problems.
+be willing to take on new challenges in technical areas in which they have no experience.
+be a curious person and be willing to research and try on-site at things they are interested in.
+be motivated to provide services to global customers
+love nature, the ocean, and living creatures
+Contract Type
+▼ Full-time (Flexible working hours)
+
+Trial Period : 3 months after joining
+When applying a discretionary labor system, the working hours are considered as 8 hours per day
+Salary
+▼ Salary: Fixed salary (basic salary + advance overtime allowance) / month
+
+The basic salary will be determined based on experience, skills, and other factors.
+The advance overtime allowance is for 60 hours of assumed overtime work.
+Additional compensation will be provided for any overtime work exceeding the assumed overtime hours.
+Average monthly overtime hours: approximately 25 hours (based on fiscal year 2021 actual data)
+▼ Bonus: Twice a year (April and October)
+
+The payment criteria will be determined based on the company's regulations and the individual's contribution to performance.
+Location
+▼ Remote Work
+UMITRON will continue to adopt a remote work-based approach. We aim to build a global organization that works in diverse countries and regions to achieve our mission. We believe that allowing individuals to choose their place of residence and work freely contributes to the overall satisfaction and well-being of our members. While there may be occasional business trips or office visits as needed, the majority of our employees work remotely.
+
+【Japan Office】
+Higashigotanda, Shinagawa-ku, Tokyo 141-0022, Japan
+
+Holidays
+5-day work week (Sat/Sun off)
+National holidays, Paid time off
+Congratulatory leave, Compassionate leave
+Benefits
+Social insurance complete
+Transportation expenses full payment
+Visa support
+How to apply
+Please apply via the form below
+Please submit both of the source code (GitHub etc) that could be published, and the contents of educational / working history
+Interview Process
+Document review
+1st interview with CTO (1 hour)
+2nd interview with two software engineers ( 45 mins x 2 people =1h 30mins)
+Coding assignment (you will be asked to respond in pull request format on GitHub)
+Final interview with head of Singapore office and head of Japan office (30 mins x 2 people =1h)
+※All interviews are basically conducted online.
+※Interview process may be subject to change depending on the candidates.
+
+Umitron's Values
+Please read the following blog about 6 core values that form the basis of our company culture before entry.
+Values
+How we verbalise our company values all together from scratch
+
+Last updated
+26 May 2023
