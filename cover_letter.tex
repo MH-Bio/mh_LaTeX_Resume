@@ -1,0 +1,79 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\pagestyle{fancy}
+
+
+% Variables
+\def\applicationCompany{CTW}
+\def\jobName{DevOps Engineer}
+
+\newcommand{\contactInfo}[1]{
+	\vspace{-13pt}\item 
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		#1 \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+
+
+\begin{document}
+	
+	% Contact Info Section 
+	\paragraph{\linebreak}
+	\paragraph{Michael Hernandez \linebreak
+		181 Woodlawn Ct. \linebreak
+		Oregon City, OR 97045, USA \linebreak
+		\href{mailto:michaelhern@hotmail.com}{\underline{michaelhern@hotmail.com}} \linebreak
+		+1 503-380-0710\linebreak} 
+	
+	\paragraph{\linebreak\today}
+	
+	\paragraph{Dear Hiring Manager,}
+	
+	%\paragraph{I am writing to express my strong interest in the \jobName \space position at \applicationCompany.  With my background in software engineering, proficiency in Python and C++, and experience in working with microcontrollers to interface with peripheral sensors, I am confident in my ability to contribute to your team's goal of developing smart and well-designed technical solutions for clients.}
+	
+	\paragraph{I am excited to apply for the \jobName \space position at \applicationCompany. With my experience in software development, infrastructure management, and experience using tools such as Python, Linux, and Git, I am confident in my ability to contribute to the growth and success \applicationCompany.}
+	
+	\paragraph{In my current role as a System Validation Engineer at Intel Corporation, I am responsible for post-silicon functional validation of memory controller hardware for Intel Xeon processors.  I successfully debugged failures, identified areas for improvement in test content, and developed validation scripts for use in test suites.  My attention to detail and ability to collaborate with cross-functional teams ensured the identification of bugs and the improvement of product performance.  Furthermore my exprience at Intel has made me comfortable working in a fast-paced environment and thrive in an environment with changing requirements and tight deadlines.}
+	
+	\paragraph{In addition to my technical qualifications, I have Japanese language proficiency, which will be beneficial in collaborating with Japanese-speaking stakeholders and coworkers.   This versatility allows me to collaborate effectively with development teams and understand their requirements from a broader perspective.}
+	
+	\paragraph{I am excited about the opportunity to contribute my skills and expertise to your team as a \jobName. I believe that my strong technical background, leadership abilities, and dedication to quality assurance make me an ideal candidate for this position.}
+	
+	\paragraph{Thank you for considering my application. I would welcome the opportunity to discuss how my skills and experience align with your company's needs in more detail. I look forward to the possibility of joining your team and contributing to the success of your web application projects.}
+	
+	\paragraph{Sincerely, \linebreak-Michael Hernandez \linebreak}
+	
+	
+\end{document}
