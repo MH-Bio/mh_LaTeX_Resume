@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.21)  30 MAY 2023 18:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.21)  23 JAN 2024 17:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -332,20 +332,20 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 130.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 131.
+(Font)              <7> on input line 132.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 131.
+(Font)              <5> on input line 132.
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 13
-1.
+2.
 (c:/texlive/2023/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 210.
+(Font)              <10.95> on input line 229.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 210.
+(Font)              <8> on input line 229.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 210.
+(Font)              <6> on input line 229.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -363,12 +363,12 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  10689 strings out of 476097
- 168762 string characters out of 5795129
- 1882845 words of memory out of 5000000
+ 168750 string characters out of 5795129
+ 1883845 words of memory out of 5000000
  30945 multiletter control sequences out of 15000+600000
  517879 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,76p,260b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,76p,253b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-d
@@ -376,7 +376,7 @@ ist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy6.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 101462 bytes).
+Output written on resume.pdf (1 page, 100077 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
