@@ -5,7 +5,7 @@
 % License : MIT
 %------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[a4paper,11pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -133,8 +133,8 @@
     \href{mailto:michaelhern@hotmail.com}{\underline{michaelhern@hotmail.com}} 
     $|$ 
     \href{https://www.linkedin.com/in/michaelhernandezengineer/}{\underline{linkedin.com/in/michaelhernandezengineer}} 
-    $|$
-    \href{https://michael-hernandez.info/}{\underline{https://michael-hernandez.info/}} 
+    %$|$
+    %\href{https://michael-hernandez.info/}{\underline{https://michael-hernandez.info/}} 
     %\href{https://github.com/...}{\underline{github.com/jake}}
 \end{center}
 
@@ -155,22 +155,21 @@
 	\small{\item{
 			\textbf{Programming Languages}{: 
 				Python, 
-				C/C++, 
+				C/C++,
 				%HTML/CSS, 
-				MATLAB, 
-				LaTeX
+				%MATLAB, 
+				%LaTeX
 				} \\
 			%\textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
 			\textbf{Developer Tools}{: 
 				%Arduino IDE,
-				Git, 
-				GitHub, 
+				Git / GitHub, 
 				PyCharm, 
-				Visual Studio, 
+				%Visual Studio, 
 				VS Code, 
-				Atom, 
 				VIM,
-				Linux
+				Linux,
+				SVOS
 				%Ubuntu
 				} \\
 			\begin{comment}
@@ -180,13 +179,22 @@
 				LiquidCrystal
 				} \\
 			\end{comment}
-			\begin{comment}
-				\textbf{FrameWorks}{: 
+			%\begin{comment}
+				\textbf{Engineering Skills}{: 
+					Debugging, 
+					Unit Tests, 
+					Writing Documentation,
+					Writing Test Plans
+				} \\
+			%\end{comment}
+			%\begin{comment}
+				\textbf{Frameworks}{: 
 					Jupiter,
 					PythonSV
 				} \\
-			\end{comment}
-			\textbf{Spoken Languages}{: English (Native), Japanese (Conversational)}
+			%\end{comment}
+			%\textbf{Spoken Languages}{: English (Native Speaker), Japanese (CEFR – A2)}
+			\textbf{Spoken Languages}{: English (Native Speaker), Japanese (N3)}
 	}}
 \end{itemize}
 
@@ -218,14 +226,16 @@
     \resumeSubHeadingListStart
       %\begin{comment}
       \resumeProjectHeading
-          {\textbf{Automated Validation Script Development} $|$ \emph{Git, GitHub, Python, Linux}}{}
+          {\textbf{Automated Validation Script Development} $|$ \emph{Git, Agile, Python, API Integration}}{}
           %{January 2021 -- Present}
           \resumeItemListStart
             \resumeItem{Developed and maintained Python test scripts to stress test CPU hardware and validate functionality against specifications in an automated test environment}
+            \resumeItem{Test driven development was used at all stages of script development}
             \resumeItem{Collaborated with Architecture, Design, and Pre-silicon Validation teams to ensure appropriate testing of features}
+            \resumeItem{Used a JSON file to dynamically write entries to record visited register addresses during runtime in sPPR validation}
             \resumeItem{Wrote a comprehensive technical document outlining the objectives and operation of a newly developed script}
-            \resumeItem{Used a JSON file to write entries dynamically to record visited register addresses during runtime}
-            
+            \resumeItem{Documented runtime data in log files for the purpose of reviewing and conveying runtime information}
+            \resumeItem{Git version control software used to manage script changes and patch changes into SVOS}
           \resumeItemListEnd
           %\end{comment}
       \begin{comment}
@@ -241,17 +251,31 @@
           \end{comment}
      %\begin{comment}
       \resumeProjectHeading
-		  {\textbf{ECG Beat Detection Algorithm} $|$ \emph{MATLAB, Digital Signal Processing}}{}
+		  {\textbf{Volume Validation} $|$ \emph{Cloud Platforms, Data Visualization, Linux}}{}
 		  %{January 2020 -- March 2020}
 		  \resumeItemListStart
-		    \resumeItem{An eight step algorithm was written to reliable detect peaks on a noisy signal}
-			\resumeItem{Algorithm was tested using an intracranial pressure signal and demonstrates accurate peak detection.}
-			\resumeItem{Algorithm was designed with a self correcting mechanism when signal deviations were encountered}
-			\resumeItem{MATLAB was used to implement various mathematical filters}
-			\resumeItem{Time and position of each peak could be extracted from each saved data point}
+		    \resumeItem{Focused on identifying and resolving silicon or software bugs in the tested features}
+			\resumeItem{Utilized NGA, a cloud based automated test software, to execute test scripts in a Linux environment}
+			\resumeItem{Leveraged debugging information to root cause failures encountered in our automated test environment}
+			%\resumeItem{MATLAB was used to implement various mathematical filters}
+			\resumeItem{Organized and presented data to development team and senior validation engineers for feedback and recommended next steps}
+			\resumeItem{Used Bash scripts to automate debug testing, ensure a written history of actions, improve experiment repeatability, and organize test steps to prevent omissions}
 		  \resumeItemListEnd
 	      %\end{comment}
-	 %\begin{comment}
+	 \begin{comment}
+	 \resumeProjectHeading
+	 	{\textbf{ECG Beat Detection Algorithm} $|$ \emph{MATLAB, Problem Solving, Digital Signal Processing}}{}
+		%{January 2020 -- March 2020}
+		\resumeItemListStart
+		 \resumeItem{Designed an efficient eight-step algorithm for accurate peak detection on noisy ECG signals}
+		 \resumeItem{Algorithm was tested using an intracranial pressure signal and demonstrates accurate peak detection.}
+		 \resumeItem{Algorithm was designed with a self correcting mechanism when signal deviations were encountered}
+		 %\resumeItem{MATLAB was used to implement various mathematical filters}
+		 \resumeItem{Time and position of each peak could be extracted from each saved data point and exported to a csv file}
+		 %\resumeItem{Demonstrated proficiency in problem-solving and algorithm development}
+		 \resumeItemListEnd
+		 \end{comment}
+	 \begin{comment}
 		\resumeProjectHeading
 			{\textbf{Compact Solar Powered Vaccine Dispenser} $|$ \emph{C++, Embedded Programming}}{}
 			%{September 2019 -- June 2020}
@@ -264,16 +288,17 @@
 	  \resumeItem{Usage information recorded on an onboard SD card}
 	  \resumeItem{Developed in C++ programming language}
 			\resumeItemListEnd
-			%\end{comment}
+			\end{comment}
 	  %\begin{comment}
 		  \resumeProjectHeading
-			  {\textbf{Airline Web Scraper} $|$ \emph{Selenium, Python, JSON, CSV}}{}
+			  {\textbf{Airline Web Scraper} $|$ \emph{Selenium, Python, CSV}}{}
 			  %{May 2023 -- Present}
 		  	\resumeItemListStart
-		  	\resumeItem{Wrote a web scraper to extract price information by navigating through United Airline's website}
+		  	\resumeItem{Developed a web scraper in Python using Selenium to extract price information from United Airline's website}
 		  	\resumeItem{Written with scalability in mind to search all US - Japan routes on desired date}
 		  	\resumeItem{Provides the user data about number of stops, price, total travel time, and departure/arrival time}
-		  	\resumeItem{Handles exceptions when data is unavailable}
+		  	\resumeItem{Employed exception handling to ensure the program gracefully handles unavailable data}
+		  	%\resumeItem{Organized information about airline routes using JSON files to enhance program efficiency}
 		  	\resumeItem{Returns data in an easy to use CSV file format}
 		  	\resumeItemListEnd
 		  %\end{comment}
@@ -309,18 +334,23 @@
 	\resumeSubHeadingListStart
 
 	  \resumeSubheading
-		  {System Validation Engineer}{January 2021 -- Present}
+		  {SoC Functional Validation Engineer}{January 2021 -- Present}
 		  {Intel Corporation}{Hillsboro, OR}
 		  \resumeItemListStart
 		 	\resumeItem{Post-silicon functional validation of memory controller hardware for Intel Xeon processors}
-			%\resumeItem{Developed methodologies and executed validation plans}
-			%\resumeItem{Collaborated with architecture, design, and pre-silicon validation teams}
+		  	\resumeItem{Wrote test plans and executed test cases to ensure that hardware is properly tested}
+		  	\resumeItem{Wrote and executed unit tests to verify basic feature functionality}
+		  	\resumeItem{Regularly communicated with design teams to ensure that testing procedures are properly implemented to test hardware design}
+		  	\resumeItem{Used ticketing system to track defects and communicate ongoing debug progress to other team members}
+			\resumeItem{Design, test, and implement code written in Python using PythonSV as a development framework}
 			%\resumeItem{Utilized emulation and platform-level tools and techniques to ensure performance meets specifications}
-			\resumeItem{Debug failures and identify areas for improvement in post-silicon test content}
-			\resumeItem{Created, defined, and developed system validation environment and test suites}
+			\resumeItem{Debug hardware failures and identify areas for improvement in post-silicon test content}
+			%\resumeItem{Created, defined, and developed system validation environment and test suites}
 			%\resumeItem{Provide feedback for future on-die debug features}
 			%\resumeItem{Requires a broad understanding of multiple system areas}
-			\resumeItem{Responsible for validating three features, resulting in the identification of one silicon bug and several BIOS bugs}
+			%\resumeItem{Responsible for validating different features, identifying and describing silicon and BIOS bugs}
+			%\resumeItem{Leveraged large scale automation infrastructure in NGA to run test content in parallel across multiple test suites}
+			\resumeItem{Capture VISA traces to visualize hardware waveforms during runtime}
 		  \resumeItemListEnd
 \resumeSubHeadingListEnd
 %\end{comment}
@@ -334,11 +364,11 @@
 			{Oregon Institute of Technology}{Wilsonville, OR}
 			{Bachelor of Science in Electrical Engineering}{June 2020}
 			%\end{comment}
-		%\begin{comment}
+		\begin{comment}
 		\resumeSubheading
 			{Portland State University}{Portland, OR}
 			{Bachelor of Science in Biology, Minor in Chemistry}{June 2014}
-			%\end{comment}
+			\end{comment}
 		\resumeSubHeadingListEnd
 		
 
